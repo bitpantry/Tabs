@@ -41,4 +41,4 @@ jobs:
         playwright install 
       
     - name: Test
-      run: dotnet test --no-build --verbosity normal --maxParallelThreads 4
+      run: dotnet test --no-build --verbosity normal -property:MaxParallelThreads=2
