@@ -27,7 +27,7 @@ jobs:
 
     - name: Set up MS SQL LocalDB
       run: |
-        choco install sqlserver-express
+        choco install sql-server-express
         echo 'LocalDB installed successfully'
       
     - name: Test
